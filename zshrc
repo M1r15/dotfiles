@@ -261,8 +261,8 @@ fi
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 export FZF_TMUX_OPTS="-p 80%,60%"
 alias axtar="fzf --preview 'batcat --style=numbers --color=always --line-range :500 {}'"
-alias cheat="tldr --list | fzf --preview 'tldr {} --color=always' --preview-window=right:65% --layout=reverse --header 'Hızlı Komut Rehberi (Terk Etmek için ESC):'"
-alias mancheat="man -k . | awk '{print \$1}' | fzf --preview 'man {}' --preview-window=right:65% --layout=reverse --header 'Hızlı Man Rehberi (Çıkmak için ESC) ' --bind 'enter:execute(man {})+abort'"
+alias cheat="tldr --list | fzf --preview 'tldr {} --color=always' --preview-window=right:65% --layout=reverse --header 'Quick Command Guide (Press ESC to Exit):'"
+alias mancheat="man -k . | awk '{print \$1}' | fzf --preview 'man {}' --preview-window=right:65% --layout=reverse --header 'Quick Manuel Guide (Press ESC to Exit): ' --bind 'enter:execute(man {})+abort'"
 
 
 # Tmux ip for ctf 
