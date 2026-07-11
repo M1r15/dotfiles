@@ -17,7 +17,7 @@ These custom Zsh functions allow you to dynamically track your target and attack
     ```bash
     donectf
     ```
-Running `donectf` instantly resets the status bar indicators back to `No IP`
+>   Running `donectf` instantly resets the status bar indicators back to `No IP`
 ---
 
 ![Terminal Preview](tmux.png)
