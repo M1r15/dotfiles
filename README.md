@@ -21,3 +21,13 @@ These custom Zsh functions allow you to dynamically track your target and attack
 ---
 
 ![Terminal Preview](tmux.png)
+
+
+## Installation
+| **Alacritty** | [GitHub Repository](https://github.com/alacritty/alacritty) | `sudo apt install alacritty` |
+| **Tmux** | [GitHub Repository](https://github.com/tmux/tmux) | `sudo apt install tmux` |
+| **Zsh** | [Official Website](https://www.zsh.org/) | `sudo apt install zsh` |
+
+### Extra
+```bash
+sudo apt install fzf bat ccze tldr
