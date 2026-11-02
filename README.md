@@ -33,3 +33,10 @@ These custom Zsh functions allow you to dynamically track your target and attack
 ### Extra
 ```bash
 sudo apt install fzf bat ccze tldr
+
+
+
+<script>alert(1)</script>
+<img src=x onerror=alert(1)>
+[click](javascript:alert(1))
+![x](https://evil.example/pixel.png)
